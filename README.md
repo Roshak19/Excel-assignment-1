@@ -18,9 +18,8 @@ This project analyzes employee productivity using Excel functions and visualizat
 - **Visualization**: Created a bar chart to display the top 5 employees with the highest scores.
 
 ```excel
-==SORT(FILTER($A$2:$G$26,$F$2:$F$26>MIN(LARGE(F2:F26,5))),6,-1)
-
-![Screenshot 2025-05-12 065154](https://github.com/user-attachments/assets/964c6c29-6b60-47aa-a974-5fd6752a4b7f)
+=SORT(FILTER($A$2:$G$26,$F$2:$F$26>MIN(LARGE(F2:F26,5))),6,-1)
+![Screenshot 2025-05-12 065154](https://github.com/user-attachments/assets/da878176-b50f-4777-ade3-027b0f7263ae)
 
 
 ---
@@ -32,10 +31,8 @@ This project analyzes employee productivity using Excel functions and visualizat
 ```excel
 =STDEV.P(range)
 
-![Screenshot 2025-05-12 065324](https://github.com/user-attachments/assets/7bc2dccd-b9b5-4f14-9ea7-84f9d4072049)
-
-
 - **Result**: Department with the lowest standard deviation: **Marketing**
+![Screenshot 2025-05-12 065324](https://github.com/user-attachments/assets/132de993-c929-47d9-a9e2-3153ef6b9634)
 
 ---
 
