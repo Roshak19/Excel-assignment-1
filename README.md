@@ -19,6 +19,7 @@ This project analyzes employee productivity using Excel functions and visualizat
 
 ```excel
 =SORT(FILTER($A$2:$G$26,$F$2:$F$26>MIN(LARGE(F2:F26,5))),6,-1)
+```
 
 ![Top 5 Productive Employees](images/top_5_employees.png)
 
@@ -31,7 +32,7 @@ This project analyzes employee productivity using Excel functions and visualizat
 - **Method**: Created a PivotTable and used `STDEV.P` on `Productivity_Score` grouped by `Department`.
 
 ```excel
-=STDEV.P(range)
+=STDEV.P(range)```
 
 - **Result**: Department with the lowest standard deviation: **Marketing**
 
