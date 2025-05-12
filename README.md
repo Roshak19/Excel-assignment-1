@@ -32,7 +32,8 @@ This project analyzes employee productivity using Excel functions and visualizat
 - **Method**: Created a PivotTable and used `STDEV.P` on `Productivity_Score` grouped by `Department`.
 
 ```excel
-=STDEV.P(range)```
+=STDEV.P(range)
+```
 
 - **Result**: Department with the lowest standard deviation: **Marketing**
 
