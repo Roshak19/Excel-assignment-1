@@ -20,7 +20,8 @@ This project analyzes employee productivity using Excel functions and visualizat
 ```excel
 =SORT(FILTER($A$2:$G$26,$F$2:$F$26>MIN(LARGE(F2:F26,5))),6,-1)
 
-![Screenshot 2025-05-12 065154](https://github.com/user-attachments/assets/da878176-b50f-4777-ade3-027b0f7263ae)
+![Top 5 Productive Employees](images/top_5_employees.png)
+
 
 
 ---
